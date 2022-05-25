@@ -1,0 +1,89 @@
+@media (max-width: 992px) {
+
+/*-------------------------
+        GENERAL
+---------------------------*/
+    
+body { width: 100%; }
+    
+/*-------------------------
+SECTION : HEBERGEMENTS - POPULAIRES 
+---------------------------*/
+    
+.accommodation-popular { flex-direction: column; }
+    
+/*-------------------------
+        HEBERGEMENTS 
+---------------------------*/
+    
+.accommodation {
+    width: calc(100% - 64px);
+    order: 2;
+    padding: 32px;
+}
+    
+/*-------------------------
+        POPULAIRES
+---------------------------*/
+    
+.popular { width: calc(100% - 64px); }
+
+.popular-list { 
+    flex-wrap: nowrap;
+    gap: 32px; 
+}
+
+.popular article { 
+    width: calc(33% - 14px);
+    min-height: 220px;
+}
+    
+.popular-article { 
+    display: flex;
+    flex-direction: column;
+}
+
+.popular article img {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    margin: 0 auto;
+    object-fit: cover;  
+}
+
+.legend-popular {
+    justify-content: space-between;
+    width: 100%;
+}    
+    
+/*-------------------------
+    SECTION : ACTIVITES 
+---------------------------*/
+    
+.activity-container { 
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    max-height: 1200px;
+    width: calc(100% - -48px);
+    row-gap: 48px;  
+}
+    
+.activity-card{
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #F2F2F2;
+    width: calc(50% - 48px); 
+        
+}
+    
+.card-max, .card, .card-medium, .card-small { height: 250px; }
+    
+
+/*-------------------------
+        FOOTER
+---------------------------*/
+footer .wrapper {
+    gap: 0px;
+    justify-content: space-between;
+}
+
+}
