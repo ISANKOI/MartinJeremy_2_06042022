@@ -12,4 +12,4 @@ Booki est un site Internet qui permet aux usagers de trouver des hébergements e
 
 ### Maquette de présentation ###
 
-Voici le lien de  <a href='https://github.com/ISANKOI/MartinJeremy_6_25082022'>la maquette</a>
+Voici le lien de  <a href='https://isankoi.github.io/MartinJeremy_2_06042022/'>la maquette</a>
