@@ -9,6 +9,7 @@ Booki est un site Internet qui permet aux usagers de trouver des hébergements e
 - Plusieurs filtres.
 - Animation lors du passage du pointeur sur les filtres, appartements ...
 - Plusieurs lien (A propos, nos hébergement, assistance) dans le footer du site.
+- un design web responsive
 
 ### Maquette de présentation ###
 
